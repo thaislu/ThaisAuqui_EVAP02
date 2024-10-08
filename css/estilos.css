@@ -1,0 +1,348 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dcc517;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+    font-family: Bebas Neue;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0px 10px;
+    
+}
+
+nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #42359d;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px #f7f0cc;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #000000;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #ffffff;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/fondo02.webp');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #e9e8ab;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-family: "Bowlby One SC";
+    text-shadow: 10px 10px 10px #4e3e33;
+    font-size: 25px;
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 20px
+
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: fantasy;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #d3d591;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #283b7c;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 0 30px;
+    box-shadow: 5px 5px 8px #000000; 
+    font-family: Impact;
+    
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #283b7c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/fondo04.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.508);
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: "Bowlby One SC";
+    font-size: 20px;
+    color: beige;
+    letter-spacing: 2px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #fff78d;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #3c267b;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #ffffff;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #101256;
+    font-family: Bowlby One SC;
+    letter-spacing: 2PX;
+    text-shadow: 2px 2px 2px #4a4a4aa8;
+  }
+
+  .galeria p {
+    color: #253e97;
+    text-align: center;
+    font-size: 16px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    font-family: Bebas Neue;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #ce805f;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 17px;
+    font-family: Yu Gothic UI Light;
+    font-size: 12px;
+    color:#1f1141
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #1b134e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: Impact;
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #fff986;
+    color: #1b134e;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #c4b135;
+    color: #ffffff;
+    padding: 10px;
+    display:flow-root;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-family: arial narrow;
+    
+
+  }
+  
+  .filas{
+    display: flow-root;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h3, p {
+    color: #3c1493;
+    margin-bottom: 0px;
+    font-family: Yanone Kaffeesatz;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .social-icons1 {
+    display: flow-root;
+    align-items: center;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons{
+    list-style: none;
+    padding: 0;
+    display: flow-root;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #42359d; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
